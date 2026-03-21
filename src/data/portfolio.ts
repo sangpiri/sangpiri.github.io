@@ -8,7 +8,7 @@ export const profile = {
     { label: "교육 이수", value: "SK네트웍스 Family AI CAMP (960시간) 수료" },
     { label: "자격증", value: "빅데이터분석기사, SQL개발자(SQLD), 투자자산운용사, 공인중개사" },
     { label: "기타", value: "사법시험·세무사·감정평가사 1차 합격" },
-    { label: "특화 도메인", value: "법, 회계, 세무, 금융, 부동산" },
+    { label: "특화 도메인", value: "법, 회계, 세무, 금융, 부동산, 미디어, 콘텐츠" },
     { label: "소개", value: "성장하는 삶을 위해 직무 전환을 꿈꾸며,\n대량/고난이도 데이터 처리부터 ML 모델링, 벡터DB 구축, RAG 파이프라인 설계, LangGraph 기반 Agent 구현, React + FastAPI 풀스택 개발까지 전체 AI 서비스 개발 사이클을 경험했습니다.\n현재는 시계열 금융 데이터 파이프라인, 백테스팅, 퀀트 모델링 기능을 갖춘 주식 분석 플랫폼을 1인 개발·배포·운영하고 있습니다." },
   ],
   email: "sangpiri1107@gmail.com",
