@@ -137,7 +137,7 @@ export const projects: Project[] = [
     ],
     liveUrl: "https://antenna-stock.duckdns.org/",
     githubUrl: "https://github.com/sangpiri/ANTenna",
-    period: "2025.11. – 현재",
+    period: "2025.11. – 2026.03.",
     overview: [
       { label: "소개", value: "실전 투자 5년차의 경험에서 출발한 개인 풀스택 프로젝트. 한국/미국 주식의 시세, 재무제표, 실적 서프라이즈, 시장 지표 등 2,300만 건 이상의 데이터를 수집·분석하고, 규칙 기반 백테스팅과 ML/DL 퀀트 모델링까지 제공" },
       { label: "유형", value: "개인 프로젝트" },
