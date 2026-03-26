@@ -233,7 +233,7 @@ export const projects: Project[] = [
                   "Regime 모델(K-Means × MSM)로 9가지 시장 국면 감지 → 국면별 앙상블 가중치 자동 결정",
                   "109개 피처 엔지니어링 (기술적 지표, 모멘텀, 밸류에이션, 재무 비율, 매크로 등 9계층)",
                   "Walk-Forward 검증(46윈도우)으로 미래 데이터 누출 방지",
-                  "3개월 OOS 백테스트: 수익률 +32.4%, 승률 56.8%, Sharpe 2.15, MDD -18.3%",
+                  "3개월 Out-of-Sample 백테스트: 수익률 +32.4%, 승률 56.8%, Sharpe 2.15, MDD -18.3%",
                   "RunPod GPU로 학습 → Contabo VPS CPU로 매일 자동 추론",
                 ],
               },
