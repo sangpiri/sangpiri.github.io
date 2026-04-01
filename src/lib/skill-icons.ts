@@ -40,8 +40,8 @@ const iconMap: Record<string, IconEntry> = {
   MCP:             { siKey: "siModelcontextprotocol", color: "#000000" },
   // AI (Fine-tuning)
   "Hugging Face Transformers": { siKey: "siHuggingface", color: "#FFD21E" },
-  PEFT:            { siKey: null, color: "#7C3AED" },
-  TRL:             { siKey: null, color: "#1D4ED8" },
+  PEFT:            { siKey: "siHuggingface", color: "#FFD21E" },
+  TRL:             { siKey: "siHuggingface", color: "#FFD21E" },
   // AI (LLM Serving)
   vLLM:            { siKey: null, color: "#5C6BC0", customPath: "M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" },
   SGLang:          { siKey: null, color: "#00897B", customPath: "M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" },

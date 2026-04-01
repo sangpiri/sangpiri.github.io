@@ -45,7 +45,7 @@ export default function Skills() {
   const iconData = getSkillIcons(skills);
   const iconMap = new Map(iconData.map((d) => [d.name, d]));
 
-  const HIDDEN_CATEGORIES: Skill["category"][] = ["frontend"];
+  const HIDDEN_CATEGORIES: Skill["category"][] = ["frontend", "ai_finetune"];
 
   const grouped = skills.reduce(
     (acc, skill) => {
