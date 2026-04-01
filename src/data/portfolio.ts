@@ -19,7 +19,7 @@ export const profile = {
 
 export interface Skill {
   name: string;
-  category: "language" | "data" | "ai_ml" | "ai_llm" | "frontend" | "backend" | "database" | "devops";
+  category: "language" | "data" | "ai_ml" | "ai_llm" | "ai_serving" | "frontend" | "backend" | "database" | "devops";
 }
 
 export const skills: Skill[] = [
@@ -40,6 +40,9 @@ export const skills: Skill[] = [
   { name: "LangGraph", category: "ai_llm" },
   { name: "LlamaIndex", category: "ai_llm" },
   { name: "MCP", category: "ai_llm" },
+  // AI (LLM Serving)
+  { name: "vLLM", category: "ai_serving" },
+  { name: "SGLang", category: "ai_serving" },
   // FE
   { name: "React", category: "frontend" },
   { name: "Next.js", category: "frontend" },
@@ -68,6 +71,7 @@ export const skillCategories: Record<Skill["category"], string> = {
   data: "Data Analysis",
   ai_ml: "AI (ML/DL)",
   ai_llm: "AI (LLM/RAG/Agent)",
+  ai_serving: "LLM Inference & Serving",
   frontend: "Frontend",
   backend: "Backend",
   database: "Database",
