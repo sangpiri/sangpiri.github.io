@@ -19,7 +19,7 @@ export const profile = {
 
 export interface Skill {
   name: string;
-  category: "language" | "data" | "ai_ml" | "ai_llm" | "ai_serving" | "frontend" | "backend" | "database" | "devops";
+  category: "language" | "data" | "ai_ml" | "ai_finetune" | "ai_serving" | "ai_llm" | "frontend" | "backend" | "database" | "devops";
 }
 
 export const skills: Skill[] = [
@@ -35,14 +35,18 @@ export const skills: Skill[] = [
   // AI (ML/DL)
   { name: "scikit-learn", category: "ai_ml" },
   { name: "PyTorch", category: "ai_ml" },
-  // AI (LLM/RAG)
+  // AI (Fine-tuning)
+  { name: "Hugging Face Transformers", category: "ai_finetune" },
+  { name: "PEFT", category: "ai_finetune" },
+  { name: "TRL", category: "ai_finetune" },
+  // AI (Inference & Serving)
+  { name: "vLLM", category: "ai_serving" },
+  { name: "SGLang", category: "ai_serving" },
+  // AI (LLM/RAG/Agent)
   { name: "LangChain", category: "ai_llm" },
   { name: "LangGraph", category: "ai_llm" },
   { name: "LlamaIndex", category: "ai_llm" },
   { name: "MCP", category: "ai_llm" },
-  // AI (LLM Serving)
-  { name: "vLLM", category: "ai_serving" },
-  { name: "SGLang", category: "ai_serving" },
   // FE
   { name: "React", category: "frontend" },
   { name: "Next.js", category: "frontend" },
@@ -70,8 +74,9 @@ export const skillCategories: Record<Skill["category"], string> = {
   language: "Language",
   data: "Data Analysis",
   ai_ml: "AI (ML/DL)",
+  ai_finetune: "AI (Fine-tuning)",
+  ai_serving: "AI (Inference & Serving)",
   ai_llm: "AI (LLM/RAG/Agent)",
-  ai_serving: "LLM Inference & Serving",
   frontend: "Frontend",
   backend: "Backend",
   database: "Database",
